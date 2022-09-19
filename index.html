@@ -7,6 +7,14 @@
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&amp;subset=latin-ext" rel="stylesheet">
  <link rel="icon" type="image/x-icon" href="make.png">
+ 
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="nav/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="nav/style.css" rel="stylesheet">
+	
+    <link rel="stylesheet" href="assets/css/animated.css">
         <!-- CSS -->
         <link href="assets/css/main.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,7 +30,82 @@
 		
       <link rel="stylesheet" href="ok/style.css">
     </head>
-    <body>
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+ <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s""> 
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-decoration-none text-body pe-3" href=""><i class="bi bi-telephone me-2"></i>+012 345 6789</a>
+                        <span class="text-body">|</span>
+                        <a class="text-decoration-none text-body px-3" href=""><i class="bi bi-envelope me-2"></i>info@example.com</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-body ps-2" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Anham <br>(Developer)</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="#section1" class="nav-item nav-link active">Home</a>
+                        <a href="#section2" class="nav-item nav-link">MY Skill</a>
+                        <a href="#section3" class="nav-item nav-link">MY TEAM</a>
+                        <a href="price.html" class="nav-item nav-link">Pricing</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                                <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                                <a href="team.html" class="dropdown-item">The Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="appointment.html" class="dropdown-item">Appointment</a>
+                                <a href="search.html" class="dropdown-item">Search</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+	</div>
+    <!-- Navbar End -->
+
+
         <div class="site" id="page">
             <a class="skip-link sr-only" href="#main">Skip to content</a>
 
@@ -34,24 +117,29 @@
                     </div>
                     <!-- .hero-section__option -->
 
-                    <div class="container">
+                    <div class="container"id="section1">
                         <div class="row">
                             <div class="offset-lg-2 col-lg-8">
                                 <div class="title-01 title-01--11 text-center">
-                                    <h2 class="title__heading">
-                                        <span>I Am</span>
+                                 <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0s">   <h2 class="title__heading" >
+                                        <span  class="text-warning">I Am</span>
                                         <strong class="hero-section__words">
                                             <span class="title__effect is-visible">Profashional</span>
                                             <span class="title__effect">Developer</span>
-                                            <span class="title__effect">Pakistan</span>
+                                            <span class="title__effect">Pakistani</span>
                                         </strong><br>
-										<img src="img/abc2.jpeg" class="abc2" >
-                                    </h2>
+										<img src="img/abc2.jpeg" class="abc2" ><br>
+			
+                                    </h2>	</div>						 <div class="button-group">
+        	<a href="https://www.facebook.com/anham.jutt.5" class="btn btn-outline-warning button-sm"><i class="fa fa-facebook-square"
+			style="font-size:22px;"></i></a>
+            <a href="https://github.com/anham552" class="btn btn-outline-warning button-sm"><i class="fa fa-github"style="font-size:22px;"></i></a>
+            <a href="" class="btn btn-outline-warning button-sm"><i class="fa fa-whatsapp"style="font-size:22px;"></i></a>
+        </div>
                                     <div class="title__description">My Name Anham Virk My job is to work on the website!</div>
 
                                     <!-- Options btn color: .btn-success | .btn-info | .btn-warning | .btn-danger | .btn-primary -->
-                                    <div class="title__action"><a href="https://anham552.github.io/xzz/" class="btn btn-success "class="our" 
-									style="background:transparent">Our Work</a></div>
+                                  <button href="https://anham552.github.io/xzz/" type="button" class="btn btn-outline-warning"style="margin-bottom:95px;"><a href="https://anham552.github.io/xzz/">Our work</a></button>
                                 </div> <!-- .title-01 -->
                             </div>
                         </div>
@@ -59,16 +147,28 @@
                 </div>
             </section>
         </div>
-        <div class="button-group">
-        	<a href="https://www.facebook.com/anham.jutt.5" class="btn btn-outline-success button-sm"><i class="fa fa-facebook-square"
-			style="font-size:22px;"></i></a>
-            <a href="https://github.com/anham552" class="btn btn-outline-success button-sm"><i class="fa fa-github"style="font-size:22px;"></i></a>
-            <a href="" class="btn btn-outline-success button-sm"><i class="fa fa-whatsapp"style="font-size:22px;"></i></a>
-        </div>
+		<div class="set"id="section2">
+    <div class="section-heading  wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s" >   <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3" 
+		style="background-color:black;color:#ffc61a;font-size: 8vmin;" class="qry">MY skillS</span></h2></div>
+	
+   <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s"> 
+   <div class="bar front expert" data-skill="HTML5"></div></div>
+    <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+	<div class="bar front advanced" data-skill="CSS3"></div></div>
+    
+	<div class="right-image wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.5s"><div class="bar back intermediate" data-skill="JavaScript"></div></div>
+	<div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s"><div class="bar front exper" data-skill="JQUARY"></div></div>
+  <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">  <div class="bar back basic" data-skill="MY SQL"></div></div>
+  <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">  <div class="bar learning" data-skill="PHP"></div></div>
+	  <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">  <div class="bar back basi" data-skill="LARAVEL"></div></div>
+</div>
+  
+    <script src="assets/js/animation.js"></script>
+       
 		 <!-- Products Start -->
-    <div class="container-fluid py-5">
+    <div id="section3" class="container-fluid py-5">
         <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3" 
-		style="background-color:black;color:green;font-size:62px;">TOP Our Developer Team</span></h2>
+		style="background-color:black;color:#ffc61a;font-size: 8vmin;" class="qry">TOP Our Developer Team</span></h2>
         <div class="row px-xl-5">
             <div class="col">
                 <div class="owl-carousel related-carousel">
@@ -279,6 +379,9 @@
          </div>
       </footer>
       <!-- end footer -->
+	  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  
  <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
