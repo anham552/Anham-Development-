@@ -667,7 +667,7 @@ placeholder{
 /** contact section **/
 
 .contact {
-     background: #99ff99;
+     background:  #ffc61a;
 	 color:black;
      margin-top: 90px;
      padding: 90px 0;
@@ -695,7 +695,7 @@ placeholder{
      background-color: transparent;
      text-transform: uppercase;
      font-weight: 500;
-     border: green solid 1px;
+     border: white solid 1px;
      color: black;
      padding: 8px 0px;
      margin: 0 auto;
@@ -707,7 +707,7 @@ placeholder{
 }
 
 .main_form .send_btn:hover {
-     background-color: green;
+     background-color: black;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -724,7 +724,7 @@ placeholder{
 /** footer **/
 
 .footer {
-     background: #99ff99;
+     background:  #ffc61a;
      text-align: center;
 }
 
@@ -765,7 +765,7 @@ placeholder{
      background-color: transparent;
      text-transform: uppercase;
      font-weight: 500;
-     border: green solid 1px;
+     border: white solid 1px;
      color: black;
      padding: 5px 0px;
      margin-bottom: 5px;
@@ -776,7 +776,7 @@ placeholder{
 }
 
 .submit:hover {
-     background-color: green;
+     background-color: black;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -788,10 +788,20 @@ ul.cont li {
      text-align: left;
 }
 
+ul.conts li {
+     color: #8a9397;
+     font-size: 17px;
+     line-height: 32px;
+     text-align: left;
+}
+ul.conts li::hover{
+	color:red;
+}
+
 .copyright {
      margin-top: 90px;
      padding: 20px 0px;
-     background-color: #99ff99;
+     background-color:  #ffc61a;
 }
 
 .copyright p {
